@@ -95,7 +95,7 @@ Unlike individual suppliers of funds or borrowers who must negotiate terms and i
 
 - Total market outstanding borrowings were updated to include interest payments outstanding since the last index at.
 
-    ### totalBorrowBalanced_a,n=totalBorrowBalanced_a,(n-1) * (1+r+t)
+    ### totalBorrowBalanced_a,n=totalBorrowBalanced_a,(n-1) * (1+r*t)
 
 - A portion of the accumulated interest is retained (set aside) as a reserve, determined by the reserveFactor (reserve factor), ranging from 0 to 1
 

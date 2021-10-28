@@ -22,7 +22,7 @@ Version-2 Published on Oct·28th, 2021
    - [Risk Bearing](#5.1-Risk-Bearing)
    - [Risk Precautions](#5.2-Risk-Precautions)
    - [Extreme Risks](#5.3-Extreme-Risks)
-6. [Conclusion](#6. Conclusion)
+6. [Conclusion](#6.-Conclusion)
 7. [Parameters & Rate](#7.-Parameters-Rate)
   
 

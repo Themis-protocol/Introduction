@@ -16,5 +16,3 @@ TMS Token is an Utility Token used to govern the platform's native crypto assets
 - % Utility Fees: mainly spreads and system fees.
 - NFT Sales Commission: mainly sales commission for NFT production and auctions.
 - Data Service Fee: mainly the settlement fee for the data interface.
-
-![image](https://user-images.githubusercontent.com/75613147/123074693-1f232f00-d44a-11eb-8700-04bfb18b4ee4.png)

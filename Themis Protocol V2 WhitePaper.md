@@ -1,8 +1,13 @@
-# Themis Protocol V2 White paper
+# Themis Protocol V2 WhitePaper
+### Unlocking Liquidity For LP Position
+
+Version-2 Published on Oct·28th, 2021
+
+ Author：@Vincent Lee
 
 # 1. Overview
 
-Themis Protocol V2 is an unregulated P2P lending protocol built on the Ethernet blockchain, Themis Protocol has ERC-721/ERC1155 asset compatible features compared to other Pooling Model P2P lending protocols, allowing users to create pools of funds to lend against valuable NFTs (e.g. Uniswap V3 Position) for anonymous lending. In this way, the market makers can continue to receive the transaction fee revenue from market-making after collateralizing the assets. Meanwhile, they can lend a certain amount of Token from the protocol for other purposes.
+Themis Protocol V2 is an Decentralized P2P lending protocol built on the Ethernet blockchain, Themis Protocol has ERC-721/ERC1155 asset compatible features compared to other Pooling Model P2P lending protocols, allowing users to create pools of funds to lend against valuable NFTs (e.g. Uniswap V3 Position) for anonymous lending. In this way, the market makers can continue to receive the transaction fee revenue from market-making after collateralizing the assets. Meanwhile, they can lend a certain amount of Token from the protocol for other purposes.
 
 Compared to collateralized lending for ERC20 assets, which is extremely dependent on market liquidity, the assets collateralized in Themis Protocol have better value stability and favorable growth expectations. Themis Protocol provides market makers with a further increase in fund utilization rate and creates a new Money Market to provide a decentralized demand savings service.
 
@@ -37,8 +42,7 @@ Themis Protocol also assigns a corresponding SP-token (Supply Provide Token) as 
 This allows SP-tokens to be transferred between addresses as claims and the incentives to be settled to the transferor.
 
 *Figure 1：The exponential relationship among Deposit, Utilization, TVL and Current withdrawals
-
-![Untitled](Themis%20Protocol%20V2%20White%20paper%20537ca9ba5e7c4a6e928ae3c135cb1da6/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/75613147/139277187-6d2eb957-06b1-4a2c-8b1d-d530f55bffeb.png)
 
 ### 3.1.2 Flexible Access & Vaults
 
@@ -53,16 +57,14 @@ The basic scenarios to which the supply of tokens (including the acquisition of 
 - SP-token can be used as collateral to borrow tokens
 
 *Figure 2：SP-token can be used as a new pass with a 1:1 deposit
-
-![Untitled](Themis%20Protocol%20V2%20White%20paper%20537ca9ba5e7c4a6e928ae3c135cb1da6/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/75613147/139277375-4fa61a00-2732-4316-9699-2b6d67bb719a.png)
 
 ## 3.2 Borrow Market
 
 Themis Protocol's lending market allows ERC-721 and ERC-1155 to be used as collateral to borrow assets and then have the algorithm agree on the interest rate. The user redeems the collateral by returning all principal and interest. 
 
 *Figure 3: Use TWAPs Oracle to obtain more accurate real-time prices for collateral
-
-![Untitled](Themis%20Protocol%20V2%20White%20paper%20537ca9ba5e7c4a6e928ae3c135cb1da6/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/75613147/139277664-53a3617d-c8e6-4f1d-b00b-c6c7d6e5b805.png)
 
 ### 3.2.1 Collateral value
 
@@ -112,8 +114,7 @@ Unlike individual suppliers of funds or borrowers who must negotiate terms and i
     
 - A portion of the accumulated interest is retained (set aside) as a reserve, determined by the reserveFactor (reserve factor), ranging from 0 to 1
     
-    **reserves_a=reserves_a,(n-1)+totalBorrowBalance_a,(n-1) * (r * t * reserveFactor)**
-    
+    **reserves_a=reserves_a,(n-1)+totalBorrowBalance_a,(n-1) * (r * t * reserveFactor)**    
 
 ## 3.4 Liquidation & Auction
 
@@ -124,8 +125,7 @@ If the value of outstanding borrowings/collateral on an account reaches a certai
 ### 3.4.1 Liquidation Factor Trigger
 
 When the outstanding borrowing/collateral value ≥ 0.9, the user will not be able to redeem the collateral and the asset will be liquidated by the liquidator to the auction contract, which will start at the current asset price.
-
-![Untitled](Themis%20Protocol%20V2%20White%20paper%20537ca9ba5e7c4a6e928ae3c135cb1da6/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/75613147/139277779-34cd5820-c052-4a5e-8d4a-187f725a78cf.png)
 
 ### 3.4.2 Liquidator Incentives
 
@@ -145,12 +145,10 @@ The liquidated assets will have 4 hours of bidding time after the auction starts
 If the collateral price / outstanding principal and interest ≤ the risk factor (currently the risk factor is 1.03), then the liquidator is allowed to enforce the liquidation of the contract against the DEX agreement.
 
 *Figure 6: Liquidation & Auction Mechanism
-
-![WechatIMG3197.png](Themis%20Protocol%20V2%20White%20paper%20537ca9ba5e7c4a6e928ae3c135cb1da6/WechatIMG3197.png)
+![Untitled6](https://user-images.githubusercontent.com/75613147/139277877-c053fa95-d16d-4c72-94b4-27842d27edea.png)
 
 *Figure 7: Liquidation trend
-
-![Untitled](Themis%20Protocol%20V2%20White%20paper%20537ca9ba5e7c4a6e928ae3c135cb1da6/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/75613147/139277912-61b52251-3e98-40a0-9457-3eff6e288834.png)
 
 ## 3.5 NFT Avatar
 
@@ -263,8 +261,7 @@ When a proposal is rejected by the Technical Committee, all votes in the proposa
 Completed polling events are marked as: passed/failed/in progress/completed and are displayed in the governance interface.
 
 *Figure 8: Governance procedure reference
-
-![Untitled](Themis%20Protocol%20V2%20White%20paper%20537ca9ba5e7c4a6e928ae3c135cb1da6/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/75613147/139277979-d8d58976-b7ec-4476-b05a-41e6054604fe.png)
 
 ## 4.4 Treasury
 
@@ -315,7 +312,5 @@ Since the collateral is an LP asset, the overall float ratio is closer to that o
 This upgrade to Themis Protocol sets the tone of the growth strategy for quite some time to come. Abandoning the architecture for Collection class NFT lending was a tough decision though. But as a result, Themis Protocol will be more focused on its exploration of DeFi and is expected to increase the percentage of Retail Users from Ether and L2, and Themis Protocol, which is focused on Organic Yields, will gradually become less dependent on the price of governance tokens.
 
 # 7. Parameters & Rate
-
-[Intro ](https://www.notion.so/466fae67ca6b41a2bf055ba9ebce308f)
-
+![image](https://user-images.githubusercontent.com/75613147/139278320-69a8644e-37e6-43c0-82ff-29203d7615c1.png)
 *The above parameters can be modified through governance.

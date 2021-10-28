@@ -5,25 +5,25 @@ Version-2 Published on Oct·28th, 2021
 
  Author：@Vincent Lee
 
-1. [Overview](#Overview)
-2. [Introduction](#Introduction)
-3. [Themis Protocol V2](#Themis-Protocol-V2)
+- [Overview](#Overview)
+- [Introduction](#Introduction)
+- [Themis Protocol V2](#Themis-Protocol-V2)
    - [Supply Market](#3.1-Supply-Market)
    - [Borrow Market](#3.2-Borrow-Market)
    - [Interest Rate Models & Market Dynamics](#3.3-Interest-Rate-Models-&-Market-Dynamics)
    - [Liquidation & Auction](#3.4-Liquidation-&-Auction)
    - [NFT Avatar](#3.5-NFT-Avatar)
-4. [Governance](#4.-Governance)
+- [Governance](#4.-Governance)
    - [Themis Governance Token](#4.1-Themis-Governance-Token)
    - [Voting Module](#4.2-Voting-Module)
    - [Governance Process](#4.3-Governance-Process)
    - [Treasury](#4.4-Treasury)
-5. [Risks & Precautions](#5.-Risks-&-Precautions)
+- [Risks & Precautions](#5.-Risks-&-Precautions)
    - [Risk Bearing](#5.1-Risk-Bearing)
    - [Risk Precautions](#5.2-Risk-Precautions)
    - [Extreme Risks](#5.3-Extreme-Risks)
-6. [Conclusion](#6.-Conclusion)
-7. [Parameters & Rate](#7.-Parameters-Rate)
+- [Conclusion](#6.-Conclusion)
+- [Parameters & Rate](#7.-Parameters-Rate)
   
 
 # 1. Overview

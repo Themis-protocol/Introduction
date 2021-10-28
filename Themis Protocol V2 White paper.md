@@ -2,8 +2,6 @@
 
 # 1. Overview
 
----
-
 Themis Protocol V2 is an unregulated P2P lending protocol built on the Ethernet blockchain, Themis Protocol has ERC-721/ERC1155 asset compatible features compared to other Pooling Model P2P lending protocols, allowing users to create pools of funds to lend against valuable NFTs (e.g. Uniswap V3 Position) for anonymous lending. In this way, the market makers can continue to receive the transaction fee revenue from market-making after collateralizing the assets. Meanwhile, they can lend a certain amount of Token from the protocol for other purposes.
 
 Compared to collateralized lending for ERC20 assets, which is extremely dependent on market liquidity, the assets collateralized in Themis Protocol have better value stability and favorable growth expectations. Themis Protocol provides market makers with a further increase in fund utilization rate and creates a new Money Market to provide a decentralized demand savings service.
@@ -14,8 +12,6 @@ Themis Protocol V2 continues the design concept of V0.1 with minor adjustments f
 
 # 2. Introduction
 
----
-
 Money Market and AMM are important inventions as DeFi that have gained wide adoption in decentralized finance. It is typically used to enable token lending and trading via smart contracts on a public blockchain that requires no permission.
 
 Even with the introduction of Concentrated Liquidity, which allows market makers to flexibly distribute assets across price ranges, there is still a large demand for capital to deploy liquidity across price ranges. Further,  when the focused liquidity is outside the price range, market makers need to repeatedly adjust their positions to maximize funding efficiency. These two needs give rise to an incentive to increase leverage on AMM positions.
@@ -23,8 +19,6 @@ Even with the introduction of Concentrated Liquidity, which allows market makers
 Themis Protocol: A Money Market protocol for AMMs. It allows market makers to increase their leverage at a lower cost while having better control over the price range of their funds used in AMMs. This article will explain how Themis Protocol creates an asset bridge between Money Market and AMMs through algorithms, functionality, and governance.
 
 # 3. Themis Protocol V2
-
----
 
 ## 3.1 Supply Market
 
@@ -207,9 +201,6 @@ def themisNFT(token_id):
 ```
 
 # 4. Governance
-
----
-
 We have tried to use a more rudimentary economic model in our test network to encourage users to use our test network and have received a lot of important input from various eco-partners. For this reason, we are releasing a new governance model. This governance model is a combination of new incentives for the functions and contributions of various governance roles such as Lender, Borrower, Liquidator, Vote, liquidity, Market Maker, Eco-Partners, etc.
 
 ## 4.1 Themis Governance Token
@@ -280,8 +271,6 @@ All proceeds from the agreement will go to a Treasury address, and governance wi
 
 ## 5. Risks & Precautions
 
----
-
 ## 5.1 Risk Bearing
 
 Themis protocol's risk control concept is based on risk diversification and targeted governance and distinguishes between the roles involved in the chain, which bear the following risks.
@@ -321,9 +310,6 @@ As Borrower's assets are collateralized, their corresponding values are read bas
 Since the collateral is an LP asset, the overall float ratio is closer to that of an asset with a lower float. Although the collateral position may become a one-sided asset under a liquidity focused mechanism. However, the quoting mechanism can change from time to time due to the depth of the liquidity pool, and liquidation may be triggered early when there is a large liquidity movement, thus protecting depositors' interests.
 
 # 6. Conclusion
-
----
-
 This upgrade to Themis Protocol sets the tone of the growth strategy for quite some time to come. Abandoning the architecture for Collection class NFT lending was a tough decision though. But as a result, Themis Protocol will be more focused on its exploration of DeFi and is expected to increase the percentage of Retail Users from Ether and L2, and Themis Protocol, which is focused on Organic Yields, will gradually become less dependent on the price of governance tokens.
 
 # 7. Parameters & Rate

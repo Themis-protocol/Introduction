@@ -5,9 +5,9 @@ Version-2 Published on Oct·28th, 2021
 
  Author：@Vincent Lee
 
-1. [Overview](#1.-Overview)
-2. [Introduction](#2.-Introduction)
-3. [Themis Protocol V2](#3.-Themis-Protocol-V2)
+1. [Overview](#Overview)
+2. [Introduction](#Introduction)
+3. [Themis Protocol V2](#Themis-Protocol-V2)
    - [Supply Market](#3.1-Supply-Market)
    - [Borrow Market](#3.2-Borrow-Market)
    - [Interest Rate Models & Market Dynamics](#3.3-Interest-Rate-Models-&-Market-Dynamics)

@@ -5,6 +5,17 @@ Version-2 Published on Oct·28th, 2021
 
  Author：@Vincent Lee
 
+# 1. Overview
+
+Themis Protocol V2 is a Decentralized P2P lending protocol built on the Ethernet blockchain, Themis Protocol has ERC-721/ERC1155 asset compatible features compared to other Pooling Model P2P lending protocols, allowing users to create pools of funds to lend against valuable NFTs (e.g. Uniswap V3 Position) for anonymous lending. In this way, the market makers can continue to receive the transaction fee revenue from market-making after collateralizing the assets. Meanwhile, they can lend a certain amount of Token from the protocol for other purposes.
+
+Compared to collateralized lending for ERC20 assets, which is extremely dependent on market liquidity, the assets collateralized in Themis Protocol have better value stability and favorable growth expectations. Themis Protocol provides market makers with a further increase in fund utilization rate and creates a new Money Market to provide a decentralized demand savings service.
+
+Themis Protocol V2 continues the design concept of V0.1 with minor adjustments for the existing business. For instance, the economic model has been adjusted to add incentives for Borrowers to increase the space for compound business growth; direct incentives for Liquidity Providers have been removed to reduce the extreme volatility that governance tokens may encounter, and the liquidation model has been supplemented to make Themis Protocol more confident in combating risk.
+
+[Themis Protocol WhitePaper V0.1](https://github.com/Themis-protocol/Introduction/blob/main/WhitePaper-V0.1-En.md)
+
+## Contents
 - [Overview](#1-Overview)
 - [Introduction](#2-Introduction)
 - [Themis Protocol V2](#3-Themis-Protocol-V2)
@@ -24,17 +35,6 @@ Version-2 Published on Oct·28th, 2021
    - [Extreme Risks](#53-Extreme-Risks)
 - [Conclusion](#6-Conclusion)
 - [Parameters & Rate](#7-Parameters-Rate)
-  
-
-# 1. Overview
-
-Themis Protocol V2 is a Decentralized P2P lending protocol built on the Ethernet blockchain, Themis Protocol has ERC-721/ERC1155 asset compatible features compared to other Pooling Model P2P lending protocols, allowing users to create pools of funds to lend against valuable NFTs (e.g. Uniswap V3 Position) for anonymous lending. In this way, the market makers can continue to receive the transaction fee revenue from market-making after collateralizing the assets. Meanwhile, they can lend a certain amount of Token from the protocol for other purposes.
-
-Compared to collateralized lending for ERC20 assets, which is extremely dependent on market liquidity, the assets collateralized in Themis Protocol have better value stability and favorable growth expectations. Themis Protocol provides market makers with a further increase in fund utilization rate and creates a new Money Market to provide a decentralized demand savings service.
-
-Themis Protocol V2 continues the design concept of V0.1 with minor adjustments for the existing business. For instance, the economic model has been adjusted to add incentives for Borrowers to increase the space for compound business growth; direct incentives for Liquidity Providers have been removed to reduce the extreme volatility that governance tokens may encounter, and the liquidation model has been supplemented to make Themis Protocol more confident in combating risk.
-
-[Themis Protocol WhitePaper V0.1](https://github.com/Themis-protocol/Introduction/blob/main/WhitePaper-V0.1-En.md)
 
 # 2. Introduction
 

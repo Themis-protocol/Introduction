@@ -8,7 +8,7 @@ Themis Protocol is a Layer2 native crypto trading platform that provides collate
 
 ## **Documentation**
 
-It is possible to find documentation to integrate the Themis Protocol on docs.themis.exchange
+It is possible to find documentation to integrate the Themis Protocol on [docs.themis.exchange](https://docs.themis.exchange/)
 
 For a deep explanation of the Themis Protocol, read the [White Paper](https://github.com/Themis-protocol/Introduction/blob/main/Themis-Protocol-V2-WhitePaper.md)
 
@@ -66,4 +66,4 @@ As a token of our gratitude for your assistance, we offer a reward for every rep
 
 ## **License**
 
-The Themis Protocol is under [The-SPDX-License-Identifier: MIT](https://github.com/domcleal/spdx-licenses)
+The Themis Protocol is under [The-SPDX-License-Identifier: MIT](https://github.com/domcleal/spdx-licenses)

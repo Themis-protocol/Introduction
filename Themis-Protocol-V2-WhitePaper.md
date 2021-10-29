@@ -14,7 +14,7 @@ Version-2 Published on Oct·28th, 2021
    - [Liquidation & Auction](#Liquidation-&-Auction)
    - [NFT Avatar](#NFT-Avatar)
 - [Governance](#Governance)
-   - [Themis Governance Token](#Themis-Governance-Token)
+   - [Themis Governance Token](#4.1 Themis-Governance-Token)
    - [Voting Module](#Voting-Module)
    - [Governance Process](#Governance-Process)
    - [Treasury](#Treasury)

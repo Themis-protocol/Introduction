@@ -20,7 +20,7 @@ The source code is included in the final production version of the protocol. Eve
 
 The Audits is proceeding with several Audition agencies. Now we are cooperating with:
 
-- [Pecksheild](https://pecksheild.com)
+- [Peckshield](https://peckshield.com)
 
 ## **Bug bounty**
 

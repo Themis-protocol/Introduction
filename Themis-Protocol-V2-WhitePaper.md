@@ -11,7 +11,7 @@ Themis Protocol V2 is a Decentralized P2P lending protocol built on the Ethernet
 
 Compared to collateralized lending for ERC20 assets, which is extremely dependent on market liquidity, the assets collateralized in Themis Protocol have better value stability and favorable growth expectations. Themis Protocol provides market makers with a further increase in fund utilization rate and creates a new Money Market to provide a decentralized demand savings service.
 
-Themis Protocol V2 continues the design concept of V0.1 with minor adjustments for the existing business. For instance, the economic model has been adjusted to add incentives for Borrowers to increase the space for compound business growth; direct incentives for Liquidity Providers have been removed to reduce the extreme volatility that governance tokens may encounter, and the liquidation model has been supplemented to make Themis Protocol more confident in combating risk.
+Themis Protocol V2 continues the design principal of V0.1 with minor adjustments for the existing business. For instance, the economic model has been adjusted to add incentives for Borrowers to increase the space for compound business growth; direct incentives for Liquidity Providers have been removed to reduce the extreme volatility that governance tokens may encounter, and the liquidation model has been supplemented to make Themis Protocol more confident in combating risk.
 
 [Themis Protocol WhitePaper V0.1](https://github.com/Themis-protocol/Introduction/blob/main/WhitePaper-V0.1-En.md)
 
@@ -106,7 +106,7 @@ Calculating the outstanding principal and interest value/collateral value gives 
 
 ### 3.2.4 Cases
 
-Lending for AMMs is achieved by allowing AMMs to create new exposures without changing the collateral position.
+Lending for AMMs is achieved by allowing AMMs to adjust exposures without changing the collateral position.
 
 - AMMs can quickly adjust positions spread across different focused liquidity bands to improve capital efficiency.
 - Adding leverage to efficient focused liquidity positions.

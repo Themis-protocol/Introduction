@@ -137,6 +137,8 @@ Unlike individual suppliers of funds or borrowers who must negotiate terms and i
     
     **reserves_a=reserves_a,(n-1)+totalBorrowBalance_a,(n-1) * (r * t * reserveFactor)**    
 
+![Pooling Model](https://user-images.githubusercontent.com/75613147/141614598-ac04b9d8-113f-417f-aeec-e78cdbe6d664.png)
+
 ## 3.4 Liquidation & Auction
 
 If the value of outstanding borrowings/collateral on an account reaches a certain threshold, Themis Protocol executes a liquidation process to eliminate the risk of the agreement, which creates an auction market with a spread between the liquidated asset and the outstanding asset. If the price of the collateral continues to fall during the auction, a forced liquidation process is triggered.

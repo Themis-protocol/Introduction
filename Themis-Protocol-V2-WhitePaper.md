@@ -96,7 +96,7 @@ Users must borrow the asset to complete the collateralization. The Oracle feed p
 - Users are able to select a collateral rate from 0-0.8, thus completing the borrowing of USDC and collateralizing the reNFT into Protocol.
 - The number of token 0 and token 1 collateralized in the Protocol is continuously monitored
 
-### 3.2.2 Collateral rates
+### 3.2.2 Collateral ratio
 
 Themis Protocol offers two types of collateral rates, the first is the General Collateral Rate, which takes values in the range 0-0.65, and the second is the Certified Collateral Rate, which takes values in the range 0-0.8. Details of the Certified Collateral Rate are explained in 3.5 NFT Avatar.
 

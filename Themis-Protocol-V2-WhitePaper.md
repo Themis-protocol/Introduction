@@ -63,7 +63,8 @@ Themis Protocol also assigns a corresponding SP-token (Supply Provide Token) as 
 This allows SP-tokens to be transferred between addresses as claims and the incentives to be settled to the transferor.
 
 *Figure 1：The exponential relationship among Deposit, Utilization, TVL and Current withdrawals
-![Untitled](https://user-images.githubusercontent.com/75613147/139277187-6d2eb957-06b1-4a2c-8b1d-d530f55bffeb.png)
+
+![Preview index](https://user-images.githubusercontent.com/75613147/143675271-da0232f4-6972-4711-9cc4-444ffe16d69c.jpg)
 
 ### 3.1.2 Flexible Access & Vaults
 
@@ -85,7 +86,7 @@ The basic scenarios to which the supply of tokens (including the acquisition of 
 Themis Protocol's lending market allows ERC-721/ERC-1155 to be used as collateral to borrow assets and having the algorithm agree on the interest rate. The user redeems the collateral by returning all principal and interest. 
 
 *Figure 3: Use TWAPs Oracle to obtain more accurate real-time prices for collateral
-![Untitled 2](https://user-images.githubusercontent.com/75613147/139277664-53a3617d-c8e6-4f1d-b00b-c6c7d6e5b805.png)
+![TWAPs](https://user-images.githubusercontent.com/75613147/143675313-78c69252-3c7c-4f98-9c27-cd4abe71ca3d.jpg)
 
 ### 3.2.1 Collateral value
 
@@ -119,7 +120,7 @@ Unlike individual suppliers of funds or borrowers who must negotiate terms and i
     
     **U_a=Borrows_a/(Cash_a + Borrows_a)**
     
-- The demand curve is prepared through governance is expressed as a function of the utilization rate. For example, the borrowing rate is similar.
+- The demand curve is prepared through governance is expressed as a function of the utilization rate.
 - The interest rate earned by the supplier of funds is implicit and is equal to the borrowing rate multiplied by the utilization rate. 2.5% is a parameter, which is modified by a community vote.
     
     **BorrowingInterestsRate_a=2.5%+U_a*20%**
@@ -167,7 +168,7 @@ The liquidated assets will have 4 hours of bidding time after the auction starts
 If the collateral price / outstanding principal and interest ≤ the risk factor (currently the risk factor is 1.03), then the liquidator is allowed to enforce the liquidation of the contract against the DEX agreement.
 
 *Figure 6: Liquidation & Auction Mechanism
-![Untitled6](https://user-images.githubusercontent.com/75613147/139277877-c053fa95-d16d-4c72-94b4-27842d27edea.png)
+![liquidation](https://user-images.githubusercontent.com/75613147/143813658-0e9411c0-9869-4092-beaa-ef0c0b9cd6d1.png)
 
 *Figure 7: Liquidation trend
 ![Untitled 4](https://user-images.githubusercontent.com/75613147/139277912-61b52251-3e98-40a0-9457-3eff6e288834.png)

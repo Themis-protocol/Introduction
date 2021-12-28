@@ -7,7 +7,7 @@ Version-2 Published on Oct·28th, 2021
 
 # 1. Overview
 
-Themis Protocol V2 is a decentralized p2p lending protocol built on the Ethernet blockchain. Themis Protocol has ERC-721/ERC1155 asset compatible features compared to other pooling model p2p lending protocols, allowing users to create pools of funds to lend against valuable NFTs (e.g. Uniswap V3 Position) for anonymous lending. Market makers can continue to receive transaction fee revenue from market-making after collateralizing the assets and they can lend a certain amount of tokens from the protocol for other purposes.
+Themis Protocol V2 is a decentralized p2p lending protocol built on the Ethereum. Themis Protocol has ERC-721/ERC1155 asset compatible features compared to other pooling model p2p lending protocols, allowing users to create pools of funds to lend against valuable NFTs (e.g. Uniswap V3 Position) for anonymous lending. Market makers can continue to receive transaction fee revenue from market-making after collateralizing the assets and they can lend a certain amount of tokens from the protocol for other purposes.
 
 Compared to collateralized lending for ERC20 assets, which is extremely dependent on market liquidity, the assets collateralized in Themis Protocol have better value stability and favorable growth expectations. Themis provides market makers with an increased in fund utilization rate and creates a new money market to provide a decentralized demand savings service.
 
@@ -38,7 +38,7 @@ Themis Protocol V2 continues the design principle of V0.1 with minor adjustments
 
 # 2. Introduction
 
-Money markets and AMMs are key components of DeFi. They're typically used to enable permissionless token lending and trading via smart contracts.
+Money Market and AMM are important inventions as DeFi that have gained wide adoption in decentralized finance. It is typically used to enable token lending and trading through smart contracts on a public blockchain that requires no permission.
 
 The introduction of concentrated liquidity allows market makers to flexibly distribute assets across price ranges, however, there is still a large demand for capital to deploy liquidity across price ranges. Further, when the focused liquidity is outside the price range, market makers need to repeatedly adjust their positions to maximize funding efficiency. These two needs give rise to an incentive to increase leverage on AMM positions.
 
@@ -96,7 +96,7 @@ Users must borrow the asset to complete collateralization. The Oracle feed price
 - Users are able to select a collateral rate from 0-0.8, thus completing the borrowing of USDC and collateralizing the reNFT into the Protocol.
 - The number of token 0 and token 1 collateralized in the Protocol is continuously monitored.
 
-### 3.2.2 Collateral ratio
+### 3.2.2 Collateral rate
 
 Themis Protocol offers two types of collateral rates. The first is the General Collateral Rate, which takes values in the range 0-0.65. And the second is the Certified Collateral Rate, which takes values in the range 0-0.8. Details of the Certified Collateral Rate are explained in Section 3.5 - NFT Avatar.
 
@@ -141,7 +141,7 @@ Unlike individual suppliers of funds or borrowers who must negotiate terms and i
 
 ## 3.4 Liquidation & Auction
 
-If the value of outstanding borrowings/collateral on an account reaches a certain threshold, Themis Protocol executes a liquidation process to eliminate the risk of the agreement. This creates an auction market with a spread between the liquidated asset and the outstanding asset. If the price of the collateral continues to fall during the auction, a forced liquidation process is triggered.
+If the value of outstanding borrowing/collateral on an account reaches a certain threshold, Themis Protocol executes a liquidation process to eliminate the risk of the agreement. This creates an auction market with a spread between the liquidated asset and the outstanding asset. If the price of the collateral continues to fall during the auction, a forced liquidation process is triggered.
 
 [Liquidation & Auction of Themis Protocol](https://github.com/Themis-protocol/Introduction/blob/main/Liquidation.md)
 
@@ -160,7 +160,7 @@ The liquidated assets will have 4 hours of bidding time after the auction starts
 - Bidders bidding will initiate a transaction to the contract and lock in the funds and refund the last locked-in funds.
 - Bidders can remove assets from the contract at the end of the round.
 - A one-bid bidder will receive the lot directly at CurBidprice/0.95
-- A successful auction will return the designated outstanding assets to the Lending Pool, and the excess will go to the Treasury.
+- A successful auction will return the designated outstanding assets to the Lending Pool, and the excess part will go to the Treasury.
 
 
 ### 3.4.4 Forced Liquidation
@@ -190,10 +190,9 @@ Authentication method:
 
 It should be noted that while more funds can be lent using the NFT Avatar feature, there will be a higher risk of triggering liquidation.
 
-### 3.5.2 Casting/Reading ERC-721 Properties
+### 3.5.2 Minting/Reading ERC-721 Properties
 
-ERC721 tokens have special properties that will potentially serve as important identifiers to enhance the credit of NFT holders in the future.
-
+The ERC721 has special Properties identifiers that will potentially serve as important identifiers to enhance the credit of NFT holders in the future, such as RATIO, CREDIT, COMMUNITY, LEVEL. Based on the code provided by Opensea, we can assist users in minting their own Themis NFT Avatar, which can be used for higher level Metaverse lending.
 ```python
 def themisNFT(token_id):
     token_id = int(token_id)
@@ -225,7 +224,7 @@ def themisNFT(token_id):
 
 # 4. Governance
 
-Themisused rudimentary economic model in our test network to encourage users to use our test network. This resulted in receiving important input from various eco-partners and releasing a new governance model. This new governance model is a combination of new incentives for the functions and contributions of various governance roles such as Lenders, Borrowers, Liquidators, Voters, Liquidity Providers, Market Makers, Eco-Partners, etc.
+Themis used rudimentary economic model in our test network to encourage users to use our test network. This resulted in receiving important input from various eco-partners and releasing a new governance model. This new governance model is a combination of new incentives for the functions and contributions of various governance roles such as Lenders, Borrowers, Liquidators, Voters, Liquidity Providers, Market Makers, Eco-Partners, etc.
 
 ## 4.1 Themis Governance Token
 
@@ -247,7 +246,7 @@ Block Time：15s
 
 ### 4.1.3 Incentive Method
 
-Themis Protocol settles the incentives through smart contracts. According to the data recorded in the block, the users of the protocol can freely choose to claim these incentives after meeting the conditions.
+Themis Protocol settles the incentives through smart contracts. According to the stats recorded in the block, the users of the protocol can freely choose to claim these incentives after meeting the conditions.
 
 ## 4.2 Voting Module
 
@@ -312,7 +311,7 @@ Themis Protocol's risk control concept is based on risk diversification and targ
 When the deposit pool experiences excessive capital usage, The SP-token swap mechanism, and repurchase mechanism are set up to transfer the risk.
 
 - When the SP-token cannot be temporarily taken out of the deposit, the Token can be exchanged 1:1 in the trading market of SP-token/token.
-- When the SP-token cannot be taken out, a treasury or governance token will buy back and destroy the SP-token.
+- When the SP-token cannot be taken out, the Treasury or governance token will buy back and burn the SP-token.
 
 ### 5.2.2 Partial repayment & additional collateral
 

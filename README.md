@@ -20,7 +20,7 @@ The source code is included in the final production version of the protocol. Eve
 
 The Audits is proceeding with several Audition agencies. Now we are cooperating with:
 
-- [Peckshield](https://peckshield.com)
+- [Peckshield](https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-ThemisV3-v1.0.pdf)
 
 ## **Bug bounty**
 

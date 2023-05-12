@@ -1,4 +1,4 @@
-# Themis Protocol V2 WhitePaper
+# Themis Protocol V0.2 WhitePaper
 ### Unlocking Liquidity For LP Position
 
 Version-2 Published on Oct·28th, 2021
